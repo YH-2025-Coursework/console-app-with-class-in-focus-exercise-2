@@ -4,12 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Vehicle car1 = new Car();
+            Car car1 = new Car();
             car1.Name = "Volvo";
             car1.FuelConsumption = 5;
 
 
-            Vehicle moto1 = new Motorcycle();
+            Motorcycle moto1 = new Motorcycle();
             moto1.Name = "Yamaha";
             moto1.FuelConsumption = 3;
 
