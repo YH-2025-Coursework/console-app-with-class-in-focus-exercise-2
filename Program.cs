@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Vehicle car1 = new Car();
+            car1.Name = "Volvo";
+            car1.FuelConsumption = 5;
+
+
+            Vehicle moto1 = new Motorcycle();
+            moto1.Name = "Yamaha";
+            moto1.FuelConsumption = 3;
+
+            car1.CalculateEfficiency();
+            moto1.CalculateEfficiency();
         }
     }
 }
