@@ -15,6 +15,8 @@
 
             car1.CalculateEfficiency();
             moto1.CalculateEfficiency();
+
+            Console.ReadKey();
         }
     }
 }
